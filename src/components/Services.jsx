@@ -26,7 +26,7 @@ export const Services = () => {
   
   ];
   return (
-    <Section title="Services 🛠️" subtitle="project and all">
+    <Section title="Services 🛠️" subtitle="project and all" id='certificate'>
       <div className="grid gap-10 lg:grid-cols-2">
         {services.map(({ id, image, title }) => (
           // eslint-disable-next-line react/jsx-key

@@ -3,6 +3,17 @@
 @tailwind utilities;
 
 
+/* This is an example, adjust according to your needs */
+.hover\:scale-125:hover {
+  transform: scale(1.25);
+  transition: transform 0.3s ease;
+}
+
+/* Optional: If you want a specific border color on hover */
+.hover\:border-indigo-500:hover {
+  border-color: #556ede;
+}
+
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;

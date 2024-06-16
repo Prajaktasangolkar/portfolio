@@ -1,34 +1,53 @@
 import React from 'react'
 import { Section } from './common/Section'
 import {FaGithub,FaExternalLinkSquareAlt} from 'react-icons/fa'
-import p1 from '../assets/1.jpg'
+import p1 from '../assets/ecom.png'
+import p2 from '../assets/codered.png'
+import p3 from '../assets/schoolmanagement.png'
+import p4 from '../assets/netflix.png'
+import p5 from '../assets/twitter.png'
+import p6 from '../assets/twitter.png'
 export const Portfolio = () => {
     const projects=[
         {
             id:1,
             image:p1,
-            title:"Best App",
-            github:'https://github.com/Prajaktasangolkar',
+            title:"Ecommerce Website",
+            github:'https://github.com/Prajaktasangolkar/E-Commerce_Website',
             demo:'link'
         },
         {
             id:2,
-            image:p1,
-            title:"Best App",
-            github:'https://github.com/Prajaktasangolkar',
+            image:p2,
+            title:"Code red website",
+            github:'https://github.com/Prajaktasangolkar/Code-Red',
             demo:'link'
         },
         {
             id:3,
-            image:p1,
-            title:"Best App",
-            github:'https://github.com/Prajaktasangolkar',
+            image:p3,
+            title:"School Management website",
+            github:'https://github.com/Prajaktasangolkar/School_Management__',
             demo:'link'
         },
         {
             id:4,
-            image:p1,
-            title:"Best App",
+            image:p4,
+            title:"Netflix Clone",
+            github:'https://github.com/Prajaktasangolkar/NetFlix__Clone',
+            demo:'link'
+        },
+        {
+            id:5,
+            image:p5,
+            title:"Twitter Website",
+            github:'https://github.com/Prajaktasangolkar/tweeter',
+            demo:'link'
+        },
+        {
+            id:6,
+            image:p6,
+            title:"Portfolio",
             github:'https://github.com/Prajaktasangolkar',
             demo:'link'
         },
