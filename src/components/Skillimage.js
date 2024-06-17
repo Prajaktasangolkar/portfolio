@@ -2,7 +2,7 @@ import * as adobeXd from './javascript.svg';
 import * as bootstrap from './javascript.svg';
 import * as c from './javascript.svg';
 import * as canva from './javascript.svg';
-import * as css from './javascript.svg';;
+import * as css from './javascript.svg';
 import * as figma from './javascript.svg';
 import * as git from './javascript.svg';
 import * as html from './javascript.svg';
@@ -17,7 +17,6 @@ import * as react from './javascript.svg';
 import * as selenium from './javascript.svg';
 import * as tailwind from './javascript.svg';
 import * as vitejs from './javascript.svg';
-import * as vue from './javascript.svg';
 import * as wordpress from './javascript.svg';
 
 
@@ -35,8 +34,6 @@ export const skillsImage = (skill) => {
       return javascript;
     case 'react':
       return react;
-    case 'vue':
-      return vue;
     case 'bootstrap':
       return bootstrap;
     case 'mongodb':

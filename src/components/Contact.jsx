@@ -1,7 +1,7 @@
 import React from 'react'
 import { Section } from './common/Section'
-import {FaGithub,FaLinkedin,FaArrowDown} from 'react-icons/fa'
-import avatar from '../assets/avatar.png'
+import {FaGithub,FaLinkedin} from 'react-icons/fa'
+import avatar from '../assets/contact.png'
 
 export const Contact = () => {
     const SOCIAL=[
@@ -18,14 +18,24 @@ export const Contact = () => {
         }
     ]
   return (
-    <Section title='Contact 📞'
-    subtitle='Thses are the ways you can get in touch with me,Hope to hear from you soon :)'
+    <Section 
+    
     >
+            <div className="flex justify-center my-5 lg:py-8" id='contact'>
+        <div className="flex  items-center">
+          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
+            Contact
+          </span>
+          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+        </div>
+      </div>
       <div className='flex flex-col items-center justify-center gap-8 text-center'>
         <div>
-            <img src={avatar} alt="" />
+            <img src={avatar} alt=""  className=' h-60'/>
         </div>
             <div>
+             <p>Thses are the ways you can get in touch with me,Hope to hear from you soon :)</p>
                <p className='max-w-xs md:max-w-lg font-extralight'
                >Feel free to contact me using your preferred medium</p>
             </div>
