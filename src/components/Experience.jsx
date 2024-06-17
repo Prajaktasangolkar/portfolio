@@ -36,7 +36,7 @@ function Experience() {
     // eslint-disable-next-line react/jsx-key
     <div
       key={index}
-      className="p-3 relative border border-gray-300 rounded-lg cursor-pointer hover:border-indigo-500 bg-[#191233] text-white "
+      className="p-3 relative border border-gray-300 rounded-lg cursor-pointer hover:border-indigo-500 bg-[#191233] text-white  w-4/5"
       
     >
       <img

@@ -6,7 +6,7 @@ import p2 from '../assets/codered.png'
 import p3 from '../assets/schoolmanagement.png'
 import p4 from '../assets/netflix.png'
 import p5 from '../assets/twitter.png'
-import p6 from '../assets/twitter.png'
+import p6 from '../assets/port.png'
 export const Portfolio = () => {
     const projects=[
         {
@@ -56,7 +56,7 @@ export const Portfolio = () => {
     <Section 
    
     >
-          <div className="flex justify-center my-5 lg:py-8" id="certificate">
+          <div className="flex justify-center my-5 lg:py-8" id="projects">
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">

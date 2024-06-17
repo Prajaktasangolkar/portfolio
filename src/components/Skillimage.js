@@ -5,7 +5,7 @@ import * as canva from './javascript.svg';
 import * as css from './javascript.svg';
 import * as figma from './javascript.svg';
 import * as git from './javascript.svg';
-import * as html from './javascript.svg';
+import * as html from '../assets/skill/html.svg';
 import * as java from './javascript.svg';
 import * as javascript from './javascript.svg';
 import * as mongoDB from './javascript.svg';

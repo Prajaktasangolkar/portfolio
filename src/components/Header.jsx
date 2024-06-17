@@ -3,7 +3,7 @@ import { MdNightsStay, MdWbSunny } from 'react-icons/md'
 
 export const Header = () => {
   return (
-    <header className='bg-[#0B0F33] dark:bg-gray-900'>
+    <header className='bg-gray-900 dark:bg-gray-900'>
       <nav className='flex justify-between items-center p-5'>
         <div className="flex flex-shrink-0 items-center">
           <a className="text-[#16f2b3] text-3xl font-bold" href="/">
