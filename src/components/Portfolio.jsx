@@ -53,9 +53,18 @@ export const Portfolio = () => {
         },
     ]
   return (
-    <Section title='PROJECTS 🧑‍💻'
-    Subtitle="These are all the Projects that I have worked on.Some of them I have ...."
+    <Section 
+   
     >
+          <div className="flex justify-center my-5 lg:py-8" id="certificate">
+        <div className="flex  items-center">
+          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
+            Projects
+          </span>
+          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+        </div>
+      </div>
    <div className='grid gap-5 lg:gap-14 lg:grid-cols-2'>
     {
         projects.map(({id,image,title,github,demo})=>(
@@ -67,7 +76,7 @@ export const Portfolio = () => {
                 className='w-2/3'
                 />
                 <div
-                className='w-1/3 flex flex-col items-center justify-evenly p-1'
+                className='w-1/3 flex flex-col items-center justify-evenly p-1 bg-white'
                 >
                     <h2>{title}</h2>
                     <a href={github}

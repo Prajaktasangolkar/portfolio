@@ -50,7 +50,7 @@ export const Services = () => {
           // eslint-disable-next-line react/jsx-key
           <div
             key={id}
-            className="flex flex-col items-center justify-center p-5 shadow-lg dark:shadow-gray-900 rounded-xl duration-300 ease-in-out hover:scale-110 relative group  "
+            className="flex flex-col items-center justify-center p-5 shadow-lg dark:shadow-gray-900 rounded-xl duration-300 ease-in-out hover:scale-110 relative group bg-white  "
           >
             <img
               src={image}

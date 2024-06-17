@@ -19,7 +19,7 @@ export const Contact = () => {
     ]
   return (
     <Section 
-    
+      className=' bg-gray-900'
     >
             <div className="flex justify-center my-5 lg:py-8" id='contact'>
         <div className="flex  items-center">
@@ -30,7 +30,7 @@ export const Contact = () => {
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
       </div>
-      <div className='flex flex-col items-center justify-center gap-8 text-center'>
+      <div className='flex flex-col items-center justify-center gap-8 text-center  text-white'>
         <div>
             <img src={avatar} alt=""  className=' h-60'/>
         </div>
