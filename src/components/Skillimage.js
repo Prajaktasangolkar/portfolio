@@ -1,23 +1,23 @@
-import * as adobeXd from './javascript.svg';
-import * as bootstrap from './javascript.svg';
-import * as c from './javascript.svg';
-import * as canva from './javascript.svg';
-import * as css from './javascript.svg';
-import * as figma from './javascript.svg';
-import * as git from './javascript.svg';
-import * as html from '../assets/skill/html.svg';
-import * as java from './javascript.svg';
-import * as javascript from './javascript.svg';
-import * as mongoDB from './javascript.svg';
-import * as mysql from './javascript.svg';
-import * as numpy from './javascript.svg';
-import * as opencv from './javascript.svg';
-import * as python from './javascript.svg';
-import * as react from './javascript.svg';
-import * as selenium from './javascript.svg';
-import * as tailwind from './javascript.svg';
-import * as vitejs from './javascript.svg';
-import * as wordpress from './javascript.svg';
+import adobeXd from '../assets/skill/adobe-xd.svg';
+import bootstrap from '../assets/skill/bootstrap.svg';
+import c from '../assets/skill/c.svg';
+import canva from '../assets/skill/canva.svg';
+import css from '../assets/skill/css.svg';
+import figma from '../assets/skill/figma.svg';
+import git from '../assets/skill/git.svg';
+import html from '../assets/skill/html.svg';
+import java from '../assets/skill/java.svg';
+import javascript from '../assets/skill/javascript.svg';
+import mongoDB from '../assets/skill/mongoDB.svg';
+import mysql from '../assets/skill/mysql.svg';
+import numpy from '../assets/skill/numpy.svg';
+import opencv from '../assets/skill/opencv.svg';
+import python from '../assets/skill/python.svg';
+import react from '../assets/skill/react.svg';
+import selenium from '../assets/skill/selenium.svg';
+import tailwind from '../assets/skill/tailwind.svg';
+import vitejs from '../assets/skill/vitejs.svg';
+import wordpress from '../assets/skill/wordpress.svg';
 
 
 

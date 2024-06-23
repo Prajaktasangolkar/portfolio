@@ -3,7 +3,6 @@ export const skillsData = [
     'CSS',
     'Javascript',
     'React',
-    'Node JS',
     'Tailwind',
     'MongoDB',
     'MySQL',
@@ -12,7 +11,6 @@ export const skillsData = [
     'Figma',
     'C',
     'Python',
-    'Express',
     'Wordpress',
     'figma',
     'git'
